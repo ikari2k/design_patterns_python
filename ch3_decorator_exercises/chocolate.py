@@ -3,6 +3,7 @@ from ch3_decorator_exercises.ingredient_decorator import Ingredient
 
 class Chocolate(Ingredient):
     def __init__(self, drink):
+        super().__init__()
         self.drink = drink
         self.description = "Chocolate"
 
